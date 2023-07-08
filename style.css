@@ -1,0 +1,18 @@
+.container{
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    display: flex;
+    height: 800px;
+    width: 800px;
+    aspect-ratio: 1/1;
+}
+
+.chhotu{
+    background-color: aqua;
+    height: 1%;
+    width: 1%;
+}
+
+.hovered{
+    background-color: black;
+}
