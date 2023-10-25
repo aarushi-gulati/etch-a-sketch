@@ -19,7 +19,7 @@ slider.addEventListener('change', () => {
 
     dabbe.forEach((dabba) => {
         dabba.addEventListener('mouseover', () =>{
-            dabba.classList.add("hovered");
+            dabba.classList.add("clicked");
         })
     })
 })
@@ -40,6 +40,6 @@ let dabbe = document.querySelectorAll(".chhotu")
 
 dabbe.forEach((dabba) => {
     dabba.addEventListener('mouseover', () =>{
-        dabba.classList.add("hovered");
+        dabba.classList.add("clicked");
     })
 })

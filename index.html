@@ -6,23 +6,43 @@
     <title>Document</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form>
-        <label for = "pages">Enter the size of grid!</label>
-        <input
-    type="range"
-    value="16"
-    min="0"
-    max="100"
-    id="pages"
-    oninput="this.nextElementSibling.value = this.value"
-    style="width: 300px;"
-  />
-  <output for="pages">16</output>
-    </form>
-    <div class="container">
+    <div class="main">
+        <div class="heading">
+            <div class="etch">
+                Etch 
+            </div>
+            <div class="a">
+                -a- 
+            </div>
+            <div class="sketch">
+                Sketch
+            </div>
+        </div>
+        <div class="right">
+            <div class="input">
+                <form>
+                    <label for = "pages" class = "text" style="margin-left: 50px;">Enter the size of grid!</label>
+                    <input
+                    type="range"
+                    value="16"
+                    min="0"
+                    max="100"
+                    id="pages"
+                    oninput="this.nextElementSibling.value = this.value"
+                    style="width: 300px;"
+                    class = "slider"
+                    />
+                    <output for="pages">16</output>
+                </form>
+            </div>
+            <div class="container">
+            </div>
+        </div>
     </div>
-    
 </body>
 </html>

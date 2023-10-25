@@ -1,3 +1,9 @@
+body{
+    background-image: url(665449-colorful-paint-splash-purple-multi-colored-abstract.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .container{
     background-color: aquamarine;
     flex-wrap: wrap;
@@ -8,11 +14,42 @@
 }
 
 .chhotu{
-    background-color: aqua;
+    background-color: white;
     height: 1%;
     width: 1%;
 }
 
-.hovered{
+.clicked{
     background-color: black;
+}
+
+.heading{
+    font-family: 'Kavoon', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: 5vw;
+    margin-left: 200px;
+    margin-right: 300px;
+
+}
+
+.main{
+    display: flex;
+}
+
+.text{
+    font-size: 2vw;
+}
+
+form{
+    background: rgba(255, 255, 255, 0.35);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.4px);
+-webkit-backdrop-filter: blur(6.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin: 20px;
 }
